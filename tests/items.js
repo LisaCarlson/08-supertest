@@ -41,7 +41,6 @@ describe('PUT api/items/:id', function () {
         if (err) {
           throw err;
         } else {
-          console.log(res.body)
           assert.equal(res.body.title,'from test');
           done();
         }
